@@ -1,94 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style>
-        /* Add your CSS styles here */
-        /* Ensure good readability, use of colors, and layout */
-    </style>
-</head>
-<body>
-    <header>
-        <!-- Add a header with your name and a photo -->
-        <h1>Your Name</h1>
-        <img src="your_photo.jpg" alt="Your Photo">
-    </header>
-    
-    <section id="about">
-        <!-- Add a section for your introduction and information -->
-        <h2>About Me</h2>
-        <p>I'm a third-year Computer Science student with a GPA of 87. Currently, I work as a Teaching Assistant for C on Algebra B course. I'm also a member of the Moshal Community, a community that provides opportunities for learning to individuals facing economic difficulties.</p>
-        <p>Contact Info:</p>
-        <ul>
-            <li>Phone: 0559889507</li>
-            <li>Email: fozefoze112@gmail.com</li>
-            <li>Address: Jatt, Haifa, Israel</li>
-        </ul>
-    </section>
-    
-    <section id="education">
-        <!-- Add a section for your education details -->
-        <h2>Education</h2>
-        <p>Computer Science Student - 3rd Year</p>
-        <p>GPA: 87</p>
-        <ul>
-            <li>Algorithms: 84</li>
-            <li>SPL: 85</li>
-            <li>PPL: 91</li>
-            <li>Probability and Statistics: 100</li>
-            <li>Introduction to Probability: 92</li>
-            <li>ESPL: 94</li>
-            <li>Computer Architecture: 92</li>
-            <li>Hedva2: 89</li>
-            <li>Data Structures: 84</li>
-        </ul>
-    </section>
-    
-    <section id="projects">
-        <!-- Add a section for your projects -->
-        <h2>Projects</h2>
-        <ol>
-            <li>
-                <h3>World Cup Informer for many Clients - Based on TCP Server (Using Java & C++)</h3>
-                <p>A World Cup update system employs a TCP Server, implemented in Java and C++, to serve multiple clients. Utilizing STOMP, a Thread-Per-Client architecture, and the Reactor module, the server relays live game events like goals and halftime to clients while also enabling them to submit game reports. This real-time information exchange enhances user engagement and interaction during the World Cup.</p>
-            </li>
-            <li>
-                <h3>Java-Based Set Card Game with Multi-Threading</h3>
-                <p>Developed a Set Card Game utilizing Java, featuring both AI and Human players. The gameplay involves strategic token placement on the card table. AI players utilize generative algorithms for consistent and strategic token movement, adhering to the game's specific movement rules and constraints.</p>
-            </li>
-            <!-- Add more projects as needed -->
-        </ol>
-    </section>
-    
-    <section id="hackathons">
-        <!-- Add a section for your hackathons -->
-        <h2>Hackathons</h2>
-        <ol>
-            <li>
-                <h3>IBD food mentoring project - MedInt Hackathon</h3>
-                <p>Designed an application to match the perfect foods with the unique needs of IBD patients, addressing the challenge of limited data in this field. The heart of our application is a data-gathering module, where users input their daily experiences over several days. They report symptoms like the frequency of bathroom visits, their sleep patterns, and any discomfort or complications they may be facing.</p>
-            </li>
-            <!-- Add more hackathons as needed -->
-        </ol>
-    </section>
-    
-    <section id="skills">
-        <!-- Add a section for your skills -->
-        <h2>Skills</h2>
-        <ul>
-            <li>Completed 100 Bootcamp of Python</li>
-            <li>Introduction to CSS, HTML, JavaScript</li>
-            <li>Dockers & Kubernetes</li>
-            <li>Fluent (English speaking course)</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-    
-    <footer>
-        <!-- Add a footer with any additional information or links -->
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Fawzi Abu Hussin</h1>
+            <img src="./assets/images/myphoto.jpg" alt="My photo" width="500" height="500">
+        </header>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a third-year Computer Science student with a GPA of 87. Currently, I work as a Teaching Assistant for C on Algebra B course. I'm also a member of the Moshal Community, a community that provides opportunities for learning to individuals facing economic difficulties.</p>
+            <p class="contact-info-label">Contact Info:</p>
+                        <ul>
+                <li>Phone: 0559889507</li>
+                <li>Email: fozefoze112@gmail.com</li>
+                <li>Address: Jatt, Haifa, Israel</li>
+            </ul>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <p>Computer Science Student - 3rd Year</p>
+            <p class="contact-info-label">GPA: 87</p>
+            <ul>
+                <li>Algorithms: 84</li>
+                <li>SPL: 85</li>
+                <li>PPL: 91</li>
+                <li>Probability and Statistics: 100</li>
+                <li>Introduction to Probability: 92</li>
+                <li>ESPL: 94</li>
+                <li>Computer Architecture: 92</li>
+                <li>Hedva2: 89</li>
+                <li>Data Structures: 84</li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li>
+                    <h3>World Cup Informer for many Clients - Based on TCP Server (Using Java & C++)</h3>
+                    <p>A World Cup update system employs a TCP Server, implemented in Java and C++, to serve multiple clients. Utilizing STOMP, a Thread-Per-Client architecture, and the Reactor module, the server relays live game events like goals and halftime to clients while also enabling them to submit game reports. This real-time information exchange enhances user engagement and interaction during the World Cup.</p>
+                    <p>GitHub Repository: <a href="https://github.com/fawziabuhussin/SPL/tree/main/Project3" target="_blank">World Cup Informer</a></p>
+                </li>
+                <li>
+                    <h3>Java-Based Set Card Game with Multi-Threading</h3>
+                    <p>Developed a Set Card Game utilizing Java, featuring both AI and Human players. The gameplay involves strategic token placement on the card table. AI players utilize generative algorithms for consistent and strategic token movement, adhering to the game's specific movement rules and constraints.</p>
+                    <p>GitHub Repository: <a href="https://github.com/fawziabuhussin/SPL/tree/main/Project2" target="_blank">Set Card Game</a></p>
+                </li>
+                <li>
+                    <h3>AWS Project - Distributed Tasks</h3>
+                    <p>The AWS Distributed Task Manager is a cloud-based application designed to efficiently 
+                        distribute and manage tasks across multiple computing instances. Leveraging AWS services like S3, SQS, and EC2, 
+                        it orchestrates task flow, dynamically manages worker instances, and ensures fault tolerance for reliable task processing. 
+                        With robust error handling and scalability, it tackles complex computational tasks with speed and efficiency.</p>
+                    <p>GitHub Repository: <a href="https://github.com/fawziabuhussin/Distributed-System-Programming/tree/main/Manager_Clients" target="_blank">AWS Project</a></p>
+                </li>
+            </ol>
+        </section>
+        
+        
+        <section id="hackathons">
+            <h2>Hackathons</h2>
+            <ol>
+                <li>
+                    <h3>IBD food mentoring project - MedInt Hackathon</h3>
+                    <p>Designed an application to match the perfect foods with the unique needs of IBD patients, addressing the challenge of limited data in this field. The heart of our application is a data-gathering module, where users input their daily experiences over several days. They report symptoms like the frequency of bathroom visits, their sleep patterns, and any discomfort or complications they may be facing.</p>
+                </li>
+            </ol>
+        </section>
+        
+        <section id="skills">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Completed 100 days bootcamp of Python (Udemy)</li>
+                <li>Introduction to CSS, HTML, JavaScript</li>
+                <li>Dockers & Kubernetes (Udemy)</li>
+                <li>Fluent (English speaking course - Moshal) </li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 Fawzi Abu Hussin. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
